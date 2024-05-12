@@ -19,6 +19,10 @@ body {
 }
 .post-content h3{
   @apply text-2xl;
-  @apply pt-5;
-  @apply pb-3;
+  @apply pt-7;
+  @apply pb-1;
+}
+
+.post-content p {
+  @apply pt-4
 }
