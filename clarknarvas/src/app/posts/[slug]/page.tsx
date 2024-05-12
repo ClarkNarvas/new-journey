@@ -2,6 +2,7 @@ import Image from "next/image";
 import fs from  "fs";
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
+import getPosts from "../../../../components/getPosts";
 
 
 const getPostContent = (slug: string) => {
@@ -14,12 +15,15 @@ const getPostContent = (slug: string) => {
 }
 
 
-
+export const generateStaticPages = async () => {
+  const posts = getPosts();
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
 
 
 export default function Home(props: any) {
-
-
   const slug = props.params.slug;
   const content = getPostContent(slug);
   
