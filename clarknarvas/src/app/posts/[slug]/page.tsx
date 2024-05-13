@@ -16,12 +16,12 @@ const getPostContent = (slug: string) => {
 }
 
 
-export const generateStaticPages = async () => {
+export const generateStaticParams = async () => {
   const posts = getPosts();
   return posts.map((post) => ({
-    slug: post.slug,
+    slug: post.slug.replace(/\s+/g, ''),
   }));
-}
+};
 
 
 export default function BlogPost(props: any) {
@@ -30,7 +30,7 @@ export default function BlogPost(props: any) {
 
   return (
     <main>
-      <PageHeader title={content.data.title} date={content.data.date} slug={props.params.slug}  />
+      <PageHeader title={content.data.title} date={content.data.date} slug={props.params.slug} image={content.data.image}  />
       <div className="post-content ">
         <Markdown>{content.content}</Markdown>
       </div>

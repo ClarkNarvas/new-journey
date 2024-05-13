@@ -22,7 +22,7 @@ const Header = (
     </div>
   </div>
 
-  <div class="flex">
+  <div className="flex">
   <div className="mx-auto">
     <div className="flex flex-row space-x-10" >
       <div ><a>CLARK</a></div>
