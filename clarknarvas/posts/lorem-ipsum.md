@@ -1,6 +1,7 @@
 ---
 title:  "Lorem Ipsum"
 date:   2023-12-31 00:00:00 +0000
+image:  https://clarknarvas.com/assets/blogposts/my-2022/IMG_9791.png
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id velit ut tortor pretium. Fames ac turpis egestas sed. Proin sed libero enim sed. Morbi tincidunt ornare massa eget. Lorem ipsum dolor sit amet. Eget dolor morbi non arcu risus quis. Ipsum dolor sit amet consectetur adipiscing. Mattis vulputate enim nulla aliquet porttitor lacus. Phasellus egestas tellus rutrum tellus pellentesque. Ac auctor augue mauris augue neque gravida in fermentum. Porta lorem mollis aliquam ut porttitor leo. Quis risus sed vulputate odio ut enim. Purus viverra accumsan in nisl. Faucibus a pellentesque sit amet porttitor eget dolor morbi non. Id nibh tortor id aliquet lectus proin nibh nisl. At tellus at urna condimentum mattis pellentesque id. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Diam maecenas ultricies mi eget mauris pharetra et.

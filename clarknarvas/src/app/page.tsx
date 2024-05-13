@@ -9,9 +9,8 @@ export default function Home() {
   ));
 
   return (
-    <main>
-      <h1 className="fs-xl2">All Posts</h1>
+    <div className="container-narrow">
       <div>{previews}</div>
-    </main>
+    </div>
   );
 }

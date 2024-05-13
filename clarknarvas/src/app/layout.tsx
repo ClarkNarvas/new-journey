@@ -12,12 +12,27 @@ export const metadata: Metadata = {
 };
 
 const Header = (
-  <div className="header">
+  <nav className="mb-10">
+  <div className="header text-center p-5x">
     
+    <div className="container mx-auto p-4">
     <Link href="/">
-    <h2 className="text-2xl font-bold">Clark Narvas Blog</h2>
+    <h2 className="text-2xl font-bold">Clark Narvas</h2>
     </Link>
+    </div>
   </div>
+
+  <div class="flex">
+  <div className="mx-auto">
+    <div className="flex flex-row space-x-10" >
+      <div ><a>CLARK</a></div>
+      <div ><a>NOTES</a></div>
+      <div><a>VIDEOS</a></div>
+      <div><a>WORK</a></div>
+    </div>
+  </div>
+  </div>
+  </nav>
 );
 
 const Footer = (
@@ -38,10 +53,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-      <div className="container mx-auto">
       {Header}
       {children}
-      </div></body>
+      </body>
     </html>
   );
 }

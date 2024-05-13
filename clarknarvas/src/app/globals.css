@@ -9,6 +9,18 @@ body {
   font-family: 'Elza', sans-serif;
 }
 
+.post-content {
+  @apply max-w-screen-md;
+  @apply text-base/7;
+  @apply mx-auto;
+  @apply text-lg;
+}
+
+.container-narrow {
+  @apply max-w-screen-md;
+  @apply mx-auto;
+}
+
 .post-content h1{
   @apply text-3xl;
   @apply pt-5;

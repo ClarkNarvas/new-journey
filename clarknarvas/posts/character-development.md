@@ -1,6 +1,7 @@
 ---
 title:  "My 2022: Character Development"
 date:   2022-12-31 00:00:00 +0000
+image:  https://clarknarvas.com/assets/blogposts/my-2022/IMG_9791.png
 ---
 
 In December 2021, [I wrote a blog post reflecting on my year](https://clarknarvas.com/2021): I began disciplining myself; working on executing tasks, not just talking about it; and trying to push myself in every area of my life. 

@@ -15,6 +15,7 @@ const getPosts = () => {
       return {
         title: matterResult.data.title,
         date: matterResult.data.date,
+        image: matterResult.data.image,
         slug: fileName.replace(".md", " ")
       }
 
