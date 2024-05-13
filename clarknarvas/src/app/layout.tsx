@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 import "./globals.css";
 import fs from "fs";
+import Link from "next/link";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +13,10 @@ export const metadata: Metadata = {
 
 const Header = (
   <div className="header">
+    
+    <Link href="/">
     <h2 className="text-2xl font-bold">Clark Narvas Blog</h2>
+    </Link>
   </div>
 );
 

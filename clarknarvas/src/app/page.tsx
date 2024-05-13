@@ -1,6 +1,6 @@
 import Link from "next/link";
-import getPosts from "../../components/getPosts";
-import PostPreviews from "../../components/postPreviews";
+import getPosts from "../components/getPosts";
+import PostPreviews from "../components/PostPreviews";
 
 export default function Home() {
   const posts = getPosts();

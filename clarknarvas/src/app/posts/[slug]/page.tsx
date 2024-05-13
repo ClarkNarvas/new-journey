@@ -2,7 +2,8 @@ import Image from "next/image";
 import fs from  "fs";
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
-import getPosts from "../../../../components/getPosts";
+import getPosts from "../../../components/getPosts";
+import PageHeader from "../../../components/page-header";
 
 
 const getPostContent = (slug: string) => {
@@ -23,16 +24,20 @@ export const generateStaticPages = async () => {
 }
 
 
-export default function Home(props: any) {
+export default function BlogPost(props: any) {
   const slug = props.params.slug;
   const content = getPostContent(slug);
+
+
+
   
   return (
     <main>
-      <h1 className="fs-xl2 fw-bold">{content.data.title}</h1>
+      <PageHeader title={content.data.title} date={content.data.date} slug={props.params.slug}  />
       <div className="post-content">
         <Markdown>{content.content}</Markdown>
       </div>
     </main>
   );
 }
+

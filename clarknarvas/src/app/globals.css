@@ -1,10 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://use.typekit.net/meh5uoe.css");
 
 
 body {
   background: white;
+  font-family: 'Elza', sans-serif;
 }
 
 .post-content h1{
@@ -26,3 +28,12 @@ body {
 .post-content p {
   @apply pt-4
 }
+
+.brand-font {
+  font-family: 'Desire Pro', serif;
+}
+
+.base-font {
+  font-family: 'Elza', serif;
+}
+
