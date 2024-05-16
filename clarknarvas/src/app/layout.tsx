@@ -25,8 +25,8 @@ const Header = (
   <div className="flex">
   <div className="mx-auto">
     <div className="flex flex-row space-x-10" >
+      <div><a>NOTES</a></div>
       <div ><a>CLARK</a></div>
-      <div ><a>NOTES</a></div>
       <div><a>VIDEOS</a></div>
       <div><a>WORK</a></div>
     </div>
@@ -35,9 +35,13 @@ const Header = (
   </nav>
 );
 
+const copyrightDate = new Date().getFullYear();
 const Footer = (
-  <div className="footer">
-    <h2>Clark Narvas Blog</h2>
+  <div className="footer text-center mt-10 p-10 bg-cnbackground">
+    <h3 className="brand-font text-5xl mb-3 ">On a new journey</h3>
+    <a className="block link" href="mailto:clark@narvas.co.uk" >Let's get in touch - I want to hear about what you're up to</a>
+    <span className="opacity-50 mt-2 block" >Copyright Clark Narvas - {copyrightDate}</span><br></br>
+
   </div>
 );
 
@@ -54,7 +58,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
       {Header}
-      {children}
+      <div className="min-h-screen">
+        {children}
+      </div>
+      {Footer}
       </body>
     </html>
   );

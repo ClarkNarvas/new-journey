@@ -23,12 +23,12 @@ body {
 
 .post-content h1{
   @apply text-3xl;
-  @apply pt-5;
+  @apply pt-10;
   @apply pb-3;
 }
 .post-content h2{
   @apply text-3xl;
-  @apply pt-5;
+  @apply pt-10;
   @apply pb-3;
 }
 .post-content h3{
@@ -49,3 +49,13 @@ body {
   font-family: 'Elza', serif;
 }
 
+.site-padding {
+  @apply p-5;
+}
+
+a.link {
+  @apply text-cnprimary;
+  @apply hover:underline;
+  @apply decoration-cnprimary;
+  
+}

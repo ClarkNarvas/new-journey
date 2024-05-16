@@ -29,12 +29,12 @@ export default function BlogPost(props: any) {
   const content = getPostContent(slug);
 
   return (
-    <main>
+    <div className="site-content">
       <PageHeader title={content.data.title} date={content.data.date} slug={props.params.slug} image={content.data.image}  />
-      <div className="post-content ">
+      <div className="post-content mt-10 p-5 ">
         <Markdown>{content.content}</Markdown>
       </div>
-    </main>
+    </div>
   );
 }
 

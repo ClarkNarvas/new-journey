@@ -9,7 +9,7 @@ In December 2021, [I wrote a blog post reflecting on my year](https://clarknarva
 There’s a lot I’ve done this year that I wouldn’t have imagined doing this time last year, but I also had a few bumps in the road and learned many important lessons about myself. I thought I’d share these with you. 
 
 
-### Achievements this year
+## Achievements this year
 
 (but before that, briefly, here are some things I’ve done this year! 😂) 
 
@@ -21,7 +21,7 @@ There’s a lot I’ve done this year that I wouldn’t have imagined doing this
 * UCAS prediction: AAB 😁
 
 
-### Quality over Quantity 
+## Quality over Quantity 
 
 
 
@@ -40,7 +40,7 @@ In volunteer projects where I lead, I’ve started delegating smaller tasks to o
 **I’m not a robot and cannot work like a robot.** I have limits, and I need to work around them. 
 
 
-### Not all at once
+## Not all at once
 
 
 I’ve set many expectations and standards for myself socially, academically and mentally. While it’s great to have high standards, I’ve noticed I put too many on myself to the point that it’s unsustainable, and I start feeling bad about not delivering, making me less likely to deliver. 
@@ -51,7 +51,7 @@ There’s no way I can always be perfect. I don’t need to be everything all at
 
 
 
-### I need to take a chill pill 
+## I need to take a chill pill 
 
 Multi-millionaires on Twitter who own 33 supercars and get roasted by teenagers like to talk about hustle culture. **Hustle is cool and all, but I also need balance.**
 
@@ -60,7 +60,7 @@ When I became overwhelmed, I started losing enjoyment and focus, and I felt less
 
 
 
-### What I want 2023 to be about 
+## What I want 2023 to be about 
 
 [I set the theme of 2022 as moving “Forward.” ](https://clarknarvas.com/2021)
 
