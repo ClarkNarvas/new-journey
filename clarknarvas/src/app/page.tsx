@@ -1,16 +1,27 @@
+import { Suspense } from 'react';
 import Link from "next/link";
 import getPosts from "../components/getPosts";
 import PostPreviews from "../components/PostPreviews";
+import Pagination from '@/components/pagination';
+import Image from 'next/image';
 
-export default function Home() {
-  const posts = getPosts();
-  const previews = posts.map((post) => (
-    <PostPreviews key={post.slug} {...post} /> // Use parentheses to return JSX
-  ));
+export default async function Home() {
+
+  
+  const posts = await getPosts();
 
   return (
+    <div class="container mx-auto">
+
+
+
+
     <div className="container-narrow">
-      <div>{previews}</div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Pagination posts={posts} />
+      </Suspense>
+    </div>
+
     </div>
   );
 }
